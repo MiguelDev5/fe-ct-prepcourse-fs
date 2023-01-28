@@ -93,10 +93,10 @@ function multiplicarArgumentos() {
    // Tu código:
    if(arguments.length < 1) return 0;
    else if(arguments == 1) return arguments[0];
-   let m = 1;
+   let mul = 1;
    for(i=0; i<arguments.length; i++) 
-      m*=arguments[i];
-   return m;
+      mul*=arguments[i];
+   return mul;
 }
 
 function cuentoElementos(array) {
